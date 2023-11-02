@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a wordle game about League of legens characters, will you hit the correct character?">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Worldle</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Wordle</h1>
+            <div class="content">
+                <div class="guess-content">
+                    
+                </div> 
+            </div>
+             
+            <!-- <div class="guess">
+                <input type="text">
+                <button class="adivinar">Guess</button>
+            </div> -->
+            <p id="message"></p>
+        </div>
+        <div class="keyboard">
+            <div class="row">
+                <button class="letters keyboard-button">Q</button>
+                <button class="letters keyboard-button">W</button>
+                <button class="letters keyboard-button">E</button>
+                <button class="letters keyboard-button">R</button>
+                <button class="letters keyboard-button">T</button>
+                <button class="letters keyboard-button">Y</button>
+                <button class="letters keyboard-button">U</button>
+                <button class="letters keyboard-button">I</button>
+                <button class="letters keyboard-button">O</button>
+                <button class="letters keyboard-button">P</button>
+            </div>
+            <div class="row">
+                <button class="letters keyboard-button">A</button>
+                <button class="letters keyboard-button">S</button>
+                <button class="letters keyboard-button">D</button>
+                <button class="letters keyboard-button">F</button>
+                <button class="letters keyboard-button">G</button>
+                <button class="letters keyboard-button">H</button>
+                <button class="letters keyboard-button">J</button>
+                <button class="letters keyboard-button">K</button>
+                <button class="letters keyboard-button">L</button>
+            </div>
+            <div class="row">
+                <button class="letters empty-button">Back</button>
+                <button class="letters keyboard-button">Z</button>
+                <button class="letters keyboard-button">X</button>
+                <button class="letters keyboard-button">C</button>
+                <button class="letters keyboard-button">V</button>
+                <button class="letters keyboard-button">B</button>
+                <button class="letters keyboard-button">N</button>
+                <button class="letters keyboard-button">M</button>
+                <button class="letters enter-button">Enter</button>
+            </div>
+        </div> 
+        <button class="reset">Reset Game</button> 
+    </main>
+
+    <div id="popup" class="popup" style="display: none;">
+        <div class="popup-container">
+            <div class="popup-content">
+                <span id="popup-message">The choosen word was: </span>
+                <button id="close-popup" class="close-popup">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
